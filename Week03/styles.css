@@ -42,9 +42,7 @@ nav ul{
 
 nav li {
 margin: 10px;
-border-width: 1px;
-border-style: solid;
-border-color: #7C1A00;
+border: 1px solid #7C1A00;
 background-color: #FFE597; 
 }
 
@@ -61,21 +59,19 @@ nav a:hover {
 
 #contentid {
   background-image: url("trans-bg.gif");
-  border-width: 1px;
-  border-style: solid;
-  border-color: #CCCCCC;
+  border: 1px solid #CCCCCC;
   margin-left: 180px;
   padding: 10px 10px 10px 10px;
 }
 
 footer{
   text-align: center;
-  clear: none;
+  clear: both;
   }
   
   footer li{
     display: inline;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
   }
   
   h1{
@@ -90,7 +86,6 @@ footer{
 
   h3{
     background-image: url("header-star-1.gif");
-    background-position: left top;
     background-repeat: no-repeat;
     padding-left: 20px;
   }
