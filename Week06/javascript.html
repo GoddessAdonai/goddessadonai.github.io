@@ -18,4 +18,15 @@
         
         //get the clock div
         var myClock = document.getElementId('clock');
+        
+        //write the currentTime tring to the clock div
+        myClock.innerHTML = currentTime;
+      }
+    </script>
+    
+  </head>
+  <body onload = "updateTime()">
+    <div id = "clock"></div>
+  </body>
+</html>
 
